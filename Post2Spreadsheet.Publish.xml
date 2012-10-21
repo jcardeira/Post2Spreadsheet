@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="c:\deploy\p2s" deleteExistingFiles="False" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="Profile1" publishMethod="FileSystem" replaceMatchingFiles="True" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
+    <file relUrl="Web.config" publishTime="10/15/2012 12:04:47" />
+    <file relUrl="bin/NLog.xml" publishTime="07/17/2011 23:26:56" />
+    <file relUrl="bin/Google.GData.Extensions.dll" publishTime="05/27/2012 16:49:50" />
+    <file relUrl="GenericPost.ashx" publishTime="10/12/2012 12:20:02" />
+    <file relUrl="bin/Post2Spreadsheet.dll" publishTime="10/15/2012 15:23:53" />
+    <file relUrl="bin/Google.GData.Spreadsheets.dll" publishTime="05/27/2012 16:49:50" />
+    <file relUrl="bin/Post2Spreadsheet.pdb" publishTime="10/15/2012 15:23:53" />
+    <file relUrl="bin/Google.GData.AccessControl.DLL" publishTime="05/27/2012 16:49:44" />
+    <file relUrl="bin/Google.GData.Client.dll" publishTime="05/27/2012 16:49:54" />
+    <file relUrl="bin/Newtonsoft.Json.dll" publishTime="05/27/2012 16:49:48" />
+    <file relUrl="bin/NLog.dll" publishTime="07/17/2011 23:26:56" />
+    <file relUrl="bin/Google.GData.Documents.dll" publishTime="05/27/2012 16:49:44" />
+  </publishProfile>
+</publishData>

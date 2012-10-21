@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="c:\deploy" deleteExistingFiles="False" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="Profile1" publishMethod="FileSystem" replaceMatchingFiles="True" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
+    <file relUrl="Web.config" publishTime="06/18/2012 15:43:35" />
+    <file relUrl="WebForm1.aspx" publishTime="06/18/2012 13:55:18" />
+    <file relUrl="bin/NLog.xml" publishTime="07/17/2011 23:26:56" />
+    <file relUrl="scripts/jquery.ui.addresspicker.js" publishTime="06/18/2012 11:19:06" />
+    <file relUrl="bin/Google.GData.Extensions.dll" publishTime="05/27/2012 16:49:50" />
+    <file relUrl="bin/Google.GData.Spreadsheets.dll" publishTime="05/27/2012 16:49:50" />
+    <file relUrl="bin/Google.GData.AccessControl.DLL" publishTime="05/27/2012 16:49:44" />
+    <file relUrl="scripts/locationpicker.js" publishTime="06/18/2012 03:57:04" />
+    <file relUrl="scripts/jquery-ui-1.8.7.min.js" publishTime="06/09/2012 14:34:15" />
+    <file relUrl="bin/Google.GData.Client.dll" publishTime="05/27/2012 16:49:54" />
+    <file relUrl="bin/Newtonsoft.Json.dll" publishTime="05/27/2012 16:49:48" />
+    <file relUrl="bin/web4.0.pdb" publishTime="06/18/2012 14:56:20" />
+    <file relUrl="bin/NLog.dll" publishTime="07/17/2011 23:26:56" />
+    <file relUrl="bin/Google.GData.Documents.dll" publishTime="05/27/2012 16:49:44" />
+    <file relUrl="scripts/jquery-1.4.4.min.js" publishTime="06/09/2012 14:34:19" />
+    <file relUrl="bin/web4.0.dll" publishTime="06/18/2012 14:56:20" />
+  </publishProfile>
+</publishData>

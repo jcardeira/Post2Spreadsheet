@@ -1,0 +1,18 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="cardeira.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="gUserName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">joaquim@cardeiravenancio.com</Value>
+    </Setting>
+    <Setting Name="gPassword" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">1937armada</Value>
+    </Setting>
+    <Setting Name="spreadsheetkey" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Leads Viver Saúde</Value>
+    </Setting>
+    <Setting Name="emailTO" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">lara@cardeiravenancio.com</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
