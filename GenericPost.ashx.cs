@@ -17,9 +17,15 @@ namespace cardeira.p2s
         private static NLog.Logger logger = NLog.LogManager.GetCurrentClassLogger();
 
         public void ProcessRequest(HttpContext context)
-        {
+        {            
             logger.Debug("process request " + context.Request.Form);
             ThreadPool.QueueUserWorkItem(new WaitCallback(StartAsyncTask), context);
+        }
+
+        public static void PRequest(HttpContext context)
+        {
+           
+            new Handler1().ProcessRequest(context);
         }
 
         public bool IsReusable
@@ -48,7 +54,7 @@ namespace cardeira.p2s
         {            
             try
             {
-                string body = "Nova Lead Clínica Viver Sáude\n";
+                string body = cardeira.Properties.Settings.Default.emailSubject +"\n";
                 foreach (string key in nc)
                     body += (key + ": " + nc[key] + "\n");
 
@@ -59,7 +65,7 @@ namespace cardeira.p2s
                 string[] emailsTO = cardeira.Properties.Settings.Default.emailTO.Split(',');
                 foreach(string email in emailsTO)
                     mail.To.Add(email);
-                mail.Subject = "Nova Lead Clínica Viver Saúde";
+                mail.Subject = cardeira.Properties.Settings.Default.emailSubject;
                 mail.Body = body;
 
                 SmtpServer.Port = 25;

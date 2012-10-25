@@ -9,10 +9,13 @@
       <Value Profile="(Default)">1937armada</Value>
     </Setting>
     <Setting Name="spreadsheetkey" Type="System.String" Scope="Application">
-      <Value Profile="(Default)">Leads Viver Saúde</Value>
+      <Value Profile="(Default)">Leads Santarém</Value>
     </Setting>
     <Setting Name="emailTO" Type="System.String" Scope="Application">
-      <Value Profile="(Default)">lara@cardeiravenancio.com</Value>
+      <Value Profile="(Default)">joaquim@cardeira.com</Value>
+    </Setting>
+    <Setting Name="emailSubject" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Nova Lead Oralmed Santarém</Value>
     </Setting>
   </Settings>
 </SettingsFile>

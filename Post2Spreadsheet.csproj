@@ -71,6 +71,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Conversion.aspx" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -82,6 +83,13 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Conversion.aspx.cs">
+      <DependentUpon>Conversion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Conversion.aspx.designer.cs">
+      <DependentUpon>Conversion.aspx</DependentUpon>
+    </Compile>
     <Compile Include="GoogleDataAPI.cs" />
     <Compile Include="GenericPost.ashx.cs">
       <DependentUpon>GenericPost.ashx</DependentUpon>

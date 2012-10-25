@@ -43,7 +43,7 @@ namespace cardeira.Properties {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("Leads Viver Saúde")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Leads Santarém")]
         public string spreadsheetkey {
             get {
                 return ((string)(this["spreadsheetkey"]));
@@ -52,10 +52,19 @@ namespace cardeira.Properties {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("lara@cardeiravenancio.com")]
+        [global::System.Configuration.DefaultSettingValueAttribute("joaquim@cardeira.com")]
         public string emailTO {
             get {
                 return ((string)(this["emailTO"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Nova Lead Oralmed Santarém")]
+        public string emailSubject {
+            get {
+                return ((string)(this["emailSubject"]));
             }
         }
     }
